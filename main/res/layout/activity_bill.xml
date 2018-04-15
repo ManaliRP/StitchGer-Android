@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/constraintLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_margin="20dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Bill Genration"
+    android:textStyle="bold"
+    android:textSize="26dp"
+    android:gravity="center"
+    android:textColor="@color/colorPrimaryDark"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_marginTop="30dp"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="9dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="BillNo"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/bill_BillNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BillNo"
+        android:layout_weight="1.5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Customer Name"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/bill_customername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="customer_name"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="order_id"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/bill_Orderid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Order id"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="9dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Date"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/bill_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>

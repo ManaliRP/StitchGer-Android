@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StitchGer</string>
+    <string name="tagline">You stitch, We manage!</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="loginchoice">Choose Role</string>
+    <string name="submit">Submit</string>
+
+    <string name="title_activity_add_tailer"> Add Tailer </string>
+    <string name="action_settings">settings</string>
+    <string-array name="dialog_single_choice_array">
+        <item>Admin</item>
+        <item>Tailor</item>
+        <item>Customer</item>
+    </string-array>
+    <string name="title_activity_manage_tailer">manage_tailer</string>
+</resources>

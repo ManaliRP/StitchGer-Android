@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Styles"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="9dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Styles Name"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/bill_BillNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Styles name"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/stles_Attribute1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Attribute1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/styles_Attribute2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Attribute2" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/styles_Attribute3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Attribute3" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/stles_Attribute4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Attribute4" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/styles_Attribute5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Attribute5" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/styles_Attribute6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Attribute6" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/styles_Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:alpha="1.0"
+        android:background="@color/colorSecondary"
+        android:text="Save"
+
+        android:textSize="18sp" />
+</LinearLayout>
